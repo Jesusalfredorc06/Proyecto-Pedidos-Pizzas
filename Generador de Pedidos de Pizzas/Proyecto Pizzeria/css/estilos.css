@@ -1,0 +1,126 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(../css/img/pizzapepperoni.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    margin: 30px 0 0 0;
+    color: rgb(255, 255, 255);
+}
+
+form {
+    width: 500px;
+    margin: 8px 90px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+}
+input[type="submit"] {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+h2{
+    font-size: 1.4rem;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
+    width: 13rem;
+    margin: auto;
+    border-radius: 5rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.contenedor {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    margin: auto;
+}
+
+.resultado__final{
+    width: 300px;
+    margin: auto;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.301);
+
+}
+
+.error{
+    color: black;
+    font-size: 1.9rem;
+    background-color: #ffffff;
+    width: 400px;
+    text-align: center;
+    border-radius: 2rem; 
+}
+
+.cargando{
+    font-size: 3rem;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+
+@media screen and (max-width: 768px) {
+    h1{
+        font-size: 2rem;
+        display: block;
+        margin-left: 20px;
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+    }
+    h2{
+        background-color: rgb(255, 255, 255);
+        color: black;
+    }
+    .contenedor{
+        display: block;
+        justify-content: center;
+        
+    }
+    form {
+        margin: 20px auto;
+        width: 100%;
+        
+    }
+
+    .resultado__final{
+        width: 60%;
+        margin: 20px auto;
+    }
+    .error {
+        width: 80%;
+        margin: 20px auto;
+        font-size: 1rem;
+        border-radius: 1rem;
+    }
+    .cargando{
+        color: white;
+        font-size: 2rem;
+    }
+    body{
+        background-size: cover; 
+    }
+}
+
